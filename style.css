@@ -1,0 +1,567 @@
+body {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    background: linear-gradient(180deg, rgba(138,231,106,1) 0%, rgba(180,220,160,1) 50%, rgba(166,69,166) 97%);
+    width:100%;
+    margin: 0;
+    }
+    
+    /* ---- HEADER ---- */
+    
+    header {
+        width:100%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index:950;
+    
+        }
+    
+    /* ---- NAVBAR ---- */
+    
+    .topnav {
+      position: relative;
+      overflow: hidden;
+      background-color: #fff;
+      padding: 30px;
+        font-family:'Questrial', sans-serif;
+        
+        
+    }
+    
+    .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 16px 70px;
+      text-decoration: none;
+      font-size: 18px;
+    
+    }
+    
+    
+    .topnav a.active {
+      color: black;
+    }
+    
+    .topnav-centered a {
+      float: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: bolder;
+      font-size: 27px;
+    }
+    
+    .matcha{
+        font-family: 'Alegreya Sans', sans-serif;
+        background-color: #82AF30;
+        color:white;
+        letter-spacing: 2px;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+    
+    /*_____foto1________*/
+    
+    #page1 {
+        height: 650px;
+    }
+    
+    #page1 {
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    #page1 h1 {
+        position:static;
+    
+    }
+    
+    h1 {
+    padding-top:300px;
+    text-align: center;
+    font-size: 80px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    }
+    
+    #page2 {
+        height:420px;
+    }
+    
+    h2 {
+    padding-top:65px;	
+    text-align: center;
+    font-size: 70px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    
+    }
+    
+    p {
+        text-align: center;
+        font-size: 23px;
+        letter-spacing: 2px;
+    }
+    #page3 {
+        height:320px;
+    }
+    
+    img {
+        float: left; 
+        width: 50%;
+        }
+    
+    
+    h3 {
+    padding-top:55px;	
+    text-align: center;
+    font-size: 40px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;	
+    }
+    
+    #page4 {
+        height:800px;
+    
+    }
+    
+    #page4 h2{
+        padding-top:250px;
+    }
+    
+    
+    /*menu*/
+    
+    .wrap {
+      text-align:center;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .menublock
+    {
+    border: 4px solid #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin:auto;
+    
+    }
+    
+    .menublock {
+    
+      border: 4px solid #fff;
+      width: 25%;
+      margin:auto;
+    
+    }
+    
+    .menuheader
+    { border: 4px solid #fff;
+        
+    }
+    
+    .detalj {
+        text-align: left;
+    }
+    
+    .tazza {
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-left: 150px;
+    
+    }
+    
+    #page5 {
+        margin-top: -70px;
+        height:800px;
+    
+    }
+    
+    /*sliders*/
+    
+    .slider-container{
+      height: 58%;
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden; 
+      text-align: center;
+    }
+    
+    .menu {
+      position: absolute;
+      left: 0;
+      z-index: 900;
+      width: 100%;
+      bottom: 0;
+    }
+    
+    .menu label {
+      cursor: pointer;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      margin: 0 .2em 1em;
+      
+    }
+    
+    .menu label:hover {
+        background: #801F64;
+      }
+    
+    .slide {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 10;
+      padding: 8em 1em 0;
+      background-size: cover;
+      background-position: 50% 50%;
+      transition: left 0s .75s;
+    }
+    
+    [id^="slide"]:checked + .slide {
+      left: 0;
+      z-index: 100;
+      transition: left .65s ease-out;
+    }
+    
+    .slide-1 {
+       background-image: url("images/shirota-yuri-5IZwgy5LJp8-unsplash.jpg");
+    }
+    
+    .slide-2 {
+      background-image: url("images/siyuan-g_V2rt6iG7A-unsplash.jpg");
+    }
+    .slide-3 {
+        background-image: url("images/spencer-davis-SP4WO9yDqQY-unsplash.jpg");
+    }
+      
+    
+    #page6 {
+     height:300px;
+    }
+    
+    
+    .foglia {
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-left: 150px;
+        padding-bottom: 150px;
+    }
+    
+    #address {
+      float: left;
+      margin-left: 150px;
+    }
+    
+    .hours {
+      float: right;
+      margin-right: 150px;
+      padding-bottom: 80px;
+    }
+    
+    footer {
+    height:100px;
+    bottom: 0;
+    background-color: #fff;
+    }
+    
+    #final {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    }
+    
+    ul#collegamenti {
+      display: flex;
+      font-family: 'Questrial', sans-serif;
+    }
+    
+    ul#collegamenti li {
+    list-style: none;
+    color: black;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 auto;
+    display:inline-block;
+    }
+    
+    #collegamenti li:hover{
+    cursor: pointer;
+    }
+    
+    
+    /* For landscape mode */
+    
+     @media screen and (max-width: 980px){
+    
+    header {
+    position: absolute;
+      }
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+      }
+      
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+      }
+      
+       
+    }
+    
+    /* For mobile */
+    
+    @media screen and (max-width: 650px) {
+      
+    header {
+    position: absolute;
+      }
+      
+      
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+      }
+      
+      .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+      }
+      
+      
+    /*_____foto1________*/
+    
+    #page1 {
+        height: 630px;
+    }
+    
+    #page1 {
+        padding-top: 330px;
+        margin-bottom: -340px;
+        background-repeat:no-repeat;
+        background-size:contain;
+    }
+    
+    #page1 h1 {
+        position:static;
+    }
+    
+    h1 {
+    padding-top:130px;
+    text-align: center;
+    font-size: 29px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    }
+    
+     h2 {
+    text-align: center;
+    font-size: 29px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 2px;
+    } 
+     
+     #page3 {
+        height:220px;
+    }
+    
+    h3 {
+    margin-top: -160px;
+    text-align: center;
+    font-size: 25px;	
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;	
+    }
+    
+     #page4 h2{
+        padding-top:100px;
+    }
+    
+    
+    /*menu*/
+    
+    .wrap {
+      width: 90%;
+      text-align: center;
+    }
+    
+    .menublock {
+      border: 3px solid #fff;
+      width: 80%;
+       margin-top: 15px;
+    
+    }
+    
+    .menuheader
+    { border: 3px solid #fff;
+        
+    }
+    
+    .detalj {
+        text-align: left;
+    }
+    
+    .tazza {
+        width: 50%;
+        margin-top: 30px;
+    }
+     
+    #page5 {
+      margin-top: 20px;
+        height:600px;
+    
+    }
+    
+    /*sliders*/
+    
+    .slider-container{
+      height: 60%;
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden; 
+      text-align: center;
+    }
+    
+    .menu {
+      position: absolute;
+      left: 0;
+      z-index: 900;
+      width: 100%;
+      bottom: 0;
+      margin-bottom: 50px;
+    }
+    
+    .menu label {
+      cursor: pointer;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      margin: 0 .2em 1em;
+      
+      
+    }
+    
+    .menu label:hover {
+        background: #801F64;
+      }
+    
+    .slide {
+      margin-top: -110px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 10;
+      padding: 8em 1em 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      transition: left 0s .75s;
+    }
+    
+    [id^="slide"]:checked + .slide {
+      left: 0;
+      z-index: 100;
+      transition: left .65s ease-out;
+    }  
+      
+     #page6 {
+     height:830px;
+    }
+    
+    
+    .foglia {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: -70px;
+        padding-left: 150px;
+      padding-bottom: 150px;
+    
+    }
+    
+    #address {
+      float: left;
+      margin:0 auto;
+      width: 50%;
+    
+    }
+    
+    .hours {
+      float: right;
+      margin:0 auto;
+      width: 50%;
+      padding-bottom: 80px;
+    }
+     
+    footer {
+    height:200px;
+    bottom: 0;
+    background-color: #fff;
+    }
+    
+    #final {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    
+    ul#collegamenti {
+      display: block;
+      font-family: 'Questrial', sans-serif;
+      text-align: center;
+    }
+    
+    ul#collegamenti li {
+    list-style: none;
+    color: black;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    display:block;
+    
+    }
+    
+    #collegamenti li:hover{
+    cursor: pointer;
+    }
+      
+      
+    } 
